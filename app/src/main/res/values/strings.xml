@@ -7,9 +7,9 @@
     <string name="proceed">-></string>
     <string name="leave">Exit</string>
     <string name="weather">Weather</string>
-    <string name="average">The average temperature the week is </string>
+    <string name="average">Average temperature</string>
     <string name="details">Click to see details</string>
-    <string name="highChance">With a high chance of </string>
+    <string name="week">Week</string>
     <string name="max">Max</string>
     <string name="min">Min</string>
     <string name="clear">Clarity</string>

@@ -17,25 +17,15 @@ class DetailedScreen : AppCompatActivity() {
         "Saturday",
         "Sunday")
 
-    val high = arrayOf<String>("24",
-        "22",
-        "23",
-        "25",
-        "26",
-        "18",
-        "16")
 
-    val low = arrayOf<String>("15",
-        "13",
-        "14",
-        "14",
-        "16",
-        "9",
-        "4")
 
     val sun = arrayOf<String>("Sunny",
         "Sunny",
-        "")
+        "Sunny",
+        "Partly Cloudy",
+        "Raining",
+        "Foggy",
+        "Foggy")
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,8 +34,6 @@ class DetailedScreen : AppCompatActivity() {
         setContentView(R.layout.activity_detailed_screen)
 
         val daysOfWeek = findViewById<TextView>(R.id.daysOfWeek)
-        val max = findViewById<TextView>(R.id.max)
-        val min = findViewById<TextView>(R.id.min)
         val sky = findViewById<TextView>(R.id.sky)
         val back = findViewById<Button>(R.id.back)
 
@@ -59,28 +47,6 @@ class DetailedScreen : AppCompatActivity() {
         daysDisplay += "${week[5]}\n"
         daysDisplay += "${week[6]}\n"
         daysOfWeek.text = daysDisplay
-
-        //Displays the maximum temperature
-        var maxTemp = ""
-        maxTemp += "${high[0]}\n"
-        maxTemp += "${high[1]}\n"
-        maxTemp += "${high[2]}\n"
-        maxTemp += "${high[3]}\n"
-        maxTemp += "${high[4]}\n"
-        maxTemp += "${high[5]}\n"
-        maxTemp += "${high[6]}\n"
-        max.text = maxTemp
-
-        //Displays the minimum temperatures
-        var minTemp = ""
-        minTemp += "${low[0]}\n"
-        minTemp += "${low[1]}\n"
-        minTemp += "${low[2]}\n"
-        minTemp += "${low[3]}\n"
-        minTemp += "${low[4]}\n"
-        minTemp += "${low[5]}\n"
-        minTemp += "${low[6]}\n"
-        min.text = minTemp
 
         //Displays Cloud cover
         var cloudCover = ""
