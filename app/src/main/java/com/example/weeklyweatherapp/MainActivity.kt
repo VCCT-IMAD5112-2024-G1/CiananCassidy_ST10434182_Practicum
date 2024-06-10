@@ -20,5 +20,8 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+        leave.setOnClickListener{
+            finishAffinity()
+        }
     }
 }

@@ -8,8 +8,11 @@
     <string name="leave">Exit</string>
     <string name="weather">Weather</string>
     <string name="average">The average temperature the week is </string>
+    <string name="details">Click to see details</string>
     <string name="highChance">With a high chance of </string>
-    <string name="lowChance">and a low chance of </string>
-    <string name="no">This week currently has no data</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="clear">Clarity</string>
+    <string name="heading">Details of weather this week</string>
     <string name="previous">Return to main screen</string>
     </resources>
