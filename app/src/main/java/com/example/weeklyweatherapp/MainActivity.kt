@@ -12,9 +12,11 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        //Declarations
         val proceed = findViewById<Button>(R.id.proceed)
         val leave = findViewById<Button>(R.id.leave)
 
+        //Sending the user to the main screen
         proceed.setOnClickListener{
             val intent = Intent(this, MainScreen::class.java)
 

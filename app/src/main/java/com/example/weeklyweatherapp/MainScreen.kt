@@ -24,6 +24,7 @@ class MainScreen : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main_screen)
 
+        //Declarations
         val weather = findViewById<TextView>(R.id.weather)
         val average = findViewById<TextView>(R.id.average)
         val details = findViewById<Button>(R.id.details)

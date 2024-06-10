@@ -13,6 +13,7 @@
     <string name="max">Max</string>
     <string name="min">Min</string>
     <string name="clear">Clarity</string>
+    <string name="Edit"> </string>
     <string name="heading">Details of weather this week</string>
     <string name="previous">Return to main screen</string>
     </resources>
