@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WeeklyWeatherApp</string>
+    <string name="name">By Cianan Cassidy</string>
+    <string name="user">ST10434182</string>
+    <string name="title">Weekly Weather App</string>
+    <string name="next">See this weeks forecast</string>
+    <string name="proceed">-></string>
+    <string name="leave">Exit</string>
+    <string name="weather">Weather</string>
+    <string name="average">The average temperature the week is </string>
+    <string name="highChance">With a high chance of </string>
+    <string name="lowChance">and a low chance of </string>
+    <string name="no">This week currently has no data</string>
+    <string name="previous">Return to main screen</string>
+    </resources>
